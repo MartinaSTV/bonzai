@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=MuseoModerno&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* HEADER */
+
+.title{
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(189, 212, 229) , white);
+    justify-content: center;
+    align-items: center;
+}
+.title__section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title__title{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2.5rem;
+}
+.title__logo{
+    margin-left: auto;
+    max-width: 110px;
+    padding: 1rem;
+}
+.title__img{
+    max-width: 100%;
+}
+
+
+/* Navigation bar*/
+
+.menu{
+    background-color: rgb(225, 235, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+.menu__button{
+    font-family: 'MuseoModerno', cursive;
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+.menu__button:hover{
+    background-color: rgb(189, 212, 229);
+}
+
+/* booking */
+.booking{
+    background: rgb(225, 235, 243) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking__article{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.booking__number{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-color:rgb(102, 156, 196, 1); 
+    border-radius: 10px;
+
+}
+.booking__button{
+    font-family: 'MuseoModerno', cursive;
+    background-color: rgb(102, 156, 196, 1);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: white;
+}
+.booking__calender{
+    display: flex;
+    justify-content: center;
+}
+.booking__date{
+    
+
+
+}
+
+/* room */
+.room{
+    max-width: 361px;
+    background-color: rgb(189, 212, 229);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.room__section{
+    background-color: white;
+
+}
+.room__img{
+    width: 100%;
+}
+.room__info{
+    background-color: white;
+}
+.room__title{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+.room__text{
+    font-family: 'Inria Serif', serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.room__prise{
+    display: flex;
+    padding: 1rem;
+    font-family: 'Inria Serif', serif;
+    font-size: 1rem;
+
+}
+.room__button{
+    font-family: 'MuseoModerno', cursive;
+    background-color: rgb(102, 156, 196, 1);
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+    margin-left: auto;
+}
+
+
+/* room */
+
+.type{
+    display: flex;
+    flex-direction: column;
+    max-width: 361px;
+    background: rgba(225, 235, 243, 1);
+    border-radius: 5px;
+}
+.type__title{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+.type__img{
+    width: 100%;
+}
+.type__info{
+    font-family: 'Inria Serif', serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+/* footer */
+
+.footer{
+    background-color: rgb(189, 212, 229);
+    display: flex;
+    justify-content: space-around;
+}
+.footer__title{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+.footer__text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inria Serif', serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+/* book */
+.book{
+    background-color: rgb(189, 212, 229);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.book__article{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.book__title{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+.book__img{
+    padding: 1rem;
+}
