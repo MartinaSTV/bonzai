@@ -1,0 +1,7 @@
+.mainRooms{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.booking{
+    grid-column: 1 /span 8;
+}

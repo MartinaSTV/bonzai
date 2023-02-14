@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonzai components</title>
     <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="bookingform.css">
 
 
 </head>
@@ -14,26 +15,42 @@
         <section class="title__section">
             <h1 class="title__title">Bonz.ai</h1>
         </section>
-        <section class="title__logo">
-            <img src="../bonzai/img/assets/logo/bonz.ai-logo-black-portrait-full.png" alt="logo bonz.ai" class="title__img">
-        </section>
+        <img src="../bonzai/img/assets/logo/bonz.ai-logo-black-portrait-full.png" alt="logo bonz.ai" class="title__img">
     </header>
 
     <nav class="menu">
         <section class="menu__bar">
             <button class="menu__button"><p>Om bonz.ai</p></button>
+            <img src="../bonzai/img/Line 7 menu.svg" alt="streck">
             <button class="menu__button"><p>Kontakt</p></button>
+            <img src="../bonzai/img/Line 7 menu.svg" alt="streck">
             <button class="menu__button"><p>Reseguide</p></button>
+            <img src="../bonzai/img/Line 7 menu.svg" alt="streck">
             <button class="menu__button"><p>Restaurang</p></button>
+            <img src="../bonzai/img/Line 7 menu.svg" alt="streck">
+            <button class="menu__button"><p>logga in </p></button>
+            <img src="../bonzai/img/mdi_user.svg" alt="">
         </section>
+        <section class="menu__mobile">
+            <button class="menu__button">menu</button>
+            <img src="../bonzai/img/mdi_user.svg" alt="ikon gubbe" >
+        </section>
+
     </nav>
 
     <section class="booking">
         <article class="booking__article">
             <section class="booking__calender">
-                <input type="date" class="booking__date">
-                <input type="date" class="booking__date">
+                <article class="booking__date">
+                    <section class="booking__title">Ankomst</section>
+                    <input type="date" class="booking__input">
+                </article>
+                <article class="booking__date">
+                    <section class="booking__title">Avgång</section>
+                    <input type="date" class="booking__input">
+                </article>
             </section>
+
             <input type="number" class="booking__number" placeholder="Antal">
             <button class="booking__button">Sök</button>
         </article>
@@ -63,7 +80,7 @@
         <section class="footer__text">
             <h2 class="footer__title">Kontakt</h2>
             <p class="footer__text">Kundcenter tel 979 939 93 </p>
-            <p class="footer__text">Mail :  bonz@ai.com </p>
+            <p class="footer__text">Mail : bonz@ai.com </p>
         </section>
         <section class="footer__text">
             <h2 class="footer__title">Adress</h2>
@@ -86,10 +103,17 @@
             <h2 class="book__title">Boka</h2>
             <img src="../bonzai/img/uit_calender.svg" alt="bild på calender ikon" class="book__img">
         </article>
-
     </section>
 
+    <section class="secondTitle">
+        <h2 class="secondTitle__title">Våra rumstyper</h2>
+    </section>
 
+    <button class="button"><p>button</p></button>
+
+    <section class="input">
+        <input type="number" class="input__field" placeholder="Antal">
+    </section>
     
 </body>
 </html>
