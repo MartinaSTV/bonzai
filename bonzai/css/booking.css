@@ -1,7 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .mainRooms{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+    gap: 1rem;
+    padding: 1rem;
 }
 .booking{
     grid-column: 1 /span 8;
 }
+.room{
+    grid-column: auto/span 4 ;
+}
+.room:nth-child(6){
+    grid-column: 3/ 7;
+}
+@media screen and (max-width: 580px) {
+    .room{
+        grid-column: 1 /span 8;
+    }
+    .room:nth-child(6){
+        grid-column: 1/span 8
+    }
+    
+}
+
+/* .room__one{
+    grid-column: 2 /span 3;
+}
+.room__two{
+    grid-column: 5 /span 3;
+}
+.room__three{
+    grid-column: 2/ span 2;
+}
+.room__four{
+    grid-column: 4 /span 2 ;
+}
+.room__five{
+    grid-column: 6 /span 2;
+} */
+

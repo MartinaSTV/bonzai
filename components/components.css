@@ -77,7 +77,6 @@
 
 /* rooms */
 .room{
-    max-width: 500px;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px  lightgray;
 }
@@ -99,6 +98,7 @@
     font-family: 'Inria Serif', serif;
     font-size: 1rem;
     padding: 1rem;
+    line-height: 139% ;
 }
 .room__prise{
     display: flex;
@@ -143,6 +143,7 @@
     font-family: 'Inria Serif', serif;
     font-size: 1rem;
     padding: 1rem;
+    line-height: 139% ;
 }
 /* footer */
 

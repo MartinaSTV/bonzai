@@ -15,6 +15,7 @@
     grid-column: 2 /span 4;
     padding: 1rem;
     border-radius: 5px;
+    line-height: 139% ;
 }
 .book{
     grid-column: 6 /span 2;
@@ -43,6 +44,15 @@
     .menu__bar{
         width: 90%;
     }
+    .svit{
+        grid-column:2 / span 3;
+    }
+    .single{
+        grid-column: 5 /span 3;
+    }
+    .doubble{
+        grid-column:  2/span 3;
+    }
 }
 
 @media screen and (max-width: 610px) {
@@ -50,7 +60,6 @@
         width: 99%;
     }
 }
-
 
 @media screen and (max-width: 580px) {
     .main{
