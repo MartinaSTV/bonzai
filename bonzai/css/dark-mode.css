@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: dark){
+    .main, .darkMode,.room__button, .booking__button{
+        background-color: rgb(44, 51, 51);
+    }
+    .booking__header, .booking__title{
+        color:  rgb(44, 51, 51);;
+    }
+    .booking__number, .booking__input{
+        border: 1px solid  rgb(44, 51, 51);; 
+    }
+    .title, .secondTitle{
+        background-image: linear-gradient(to bottom, rgb(57, 91, 100) , rgb(165, 201, 202));
+    }
+    .menu, .book, .footer, .title__section, .booking{
+        background-color: rgb(165, 201, 202);
+    }
+    .menu__bar, .menu__button, .book__article, .text, .type, .booking__article, .room__info, .room__section, .menu__mobile {
+        background-color: rgb(231, 246, 242);
+    } 
+}
