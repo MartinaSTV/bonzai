@@ -4,10 +4,13 @@
 }
 
 .mainRooms{
+    max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 1rem;
     padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .booking{
     grid-column: 1 /span 8;
@@ -25,22 +28,8 @@
     .room:nth-child(6){
         grid-column: 1/span 8
     }
+    .booking__calender{
+        flex-direction: column;
+    }
     
 }
-
-/* .room__one{
-    grid-column: 2 /span 3;
-}
-.room__two{
-    grid-column: 5 /span 3;
-}
-.room__three{
-    grid-column: 2/ span 2;
-}
-.room__four{
-    grid-column: 4 /span 2 ;
-}
-.room__five{
-    grid-column: 6 /span 2;
-} */
-

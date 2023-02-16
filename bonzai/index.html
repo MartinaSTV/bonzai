@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../components/bookingform.css">
     <link rel="stylesheet" href="../components/components.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
 
 </head>
 <body>
@@ -26,6 +27,7 @@
             <button class="menu__button"><p>Reseguide</p></button>
             <img src="../bonzai/img/Line 7 menu.svg" alt="streck">
             <button class="menu__button"><p>Restaurang</p></button>
+            <img src="../bonzai/img/Line 7 menu.svg" alt="streck">
             <button class="menu__button menu__img"><p>logga in </p></button>
             <img src="../bonzai/img/mdi_user.svg" alt="">
         </section>
@@ -36,7 +38,7 @@
     </nav>
     <main class="main">
         
-        <section class="main__text">
+        <section class="text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatem mollitia rerum illo quos debitis voluptatum quod neque pariatur ipsam, atque quidem molestias esse cum ad accusantium architecto odio delectus?</p>
         </section>
 
@@ -49,7 +51,15 @@
             </a>
         </section>
 
-        <img src="../bonzai/img/assets/photos/09-day.jpg" alt="bild på en terass med natur utsikt" class="main__img">
+        <section class="pictures">
+            <section class="pictures__img fade">
+                <img src="../bonzai/img/assets/photos/09-day.jpg" alt="bild på en terass med natur utsikt" class="pictures__pictures">
+            </section>
+            
+            <section class="pictures__img fade">
+                <img src="../bonzai/img/assets/photos/09-night.jpg" alt="bild på en terass med natur utsikt" class="pictures__pictures">
+            </section>
+        </section>
 
         <section class="secondTitle">
             <h2 class="secondTitle__title">Våra rumstyper</h2>
@@ -62,16 +72,14 @@
         </section>
         <section class="type single">
             <h1 class="type__title">Enkelrum</h1>
-            <img src="../bonzai/img/assets/photos/02-night.jpg" alt="Bild på enkelrum" class="type__img">
+            <img src="../bonzai/img/assets/photos/01-day.jpg" alt="Bild på enkelrum" class="type__img">
             <p class="type__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo, labore beatae cumque ea voluptas consectetur voluptate incidunt aspernatur exercitationem esse est impedit? Similique autem ipsum tempora fuga tenetur iste.</p>
         </section>
         <section class="type doubble">
             <h1 class="type__title">Dubbelrum</h1>
-            <img src="../bonzai/img/assets/photos/02-night.jpg" alt="Bild på dubbelrum" class="type__img">
+            <img src="../bonzai/img/assets/photos/06-day.jpg" alt="Bild på dubbelrum" class="type__img">
             <p class="type__info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nemo, labore beatae cumque ea voluptas consectetur voluptate incidunt aspernatur exercitationem esse est impedit? Similique autem ipsum tempora fuga tenetur iste.</p>
         </section>
-
-
 
     </main>
     <footer class="footer">
@@ -85,7 +93,7 @@
             <p class="footer__text">Teknikvägen 101</p>
             <p class="footer__text">22 339 Öde</p>
         </section>
-        <section class="footer__text">
+        <section class="footer__text footer__mobile">
             <h2 class="footer__title">Följ oss</h2>
             <section class="footer__img">
                 <img src="../bonzai/img/Vector (1)insta.svg" alt="ikon instagram">
@@ -95,7 +103,8 @@
 
         </section>
     </footer>
-
     
 </body>
+<script src="js/slideshow.js"></script>
+
 </html>

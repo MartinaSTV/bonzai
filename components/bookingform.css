@@ -16,10 +16,18 @@
 .booking__article{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     padding: 0.5rem;
     border-radius: 5px;
     margin: 1rem;
+}
+.booking__header{
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 200;
+    color: rgb(102, 156, 196, 1);
+
 }
 .booking__number{
     margin: 0.5rem;
@@ -43,6 +51,10 @@
     padding: 0.5rem;
     color: white;
     box-shadow: 1px 1px 1px 1px lightgray;
+}
+.booking__search{
+    display: flex;
+    flex-direction: column;
 }
 .booking__button:hover{
     font-weight: 600;
@@ -83,6 +95,5 @@
 }
 .booking__input[type=date]{
     width: 100%;
-   
 }
 
