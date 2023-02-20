@@ -1,12 +1,19 @@
+:root{
+    --dark-color: rgb(44, 51, 51);
+}
+
 @media (prefers-color-scheme: dark){
     .main, .darkMode,.room__button, .booking__button{
-        background-color: rgb(44, 51, 51);
+        background-color: var(--dark-color);
     }
     .booking__header, .booking__title{
         color:  rgb(44, 51, 51);;
     }
     .booking__number, .booking__input{
-        border: 1px solid  rgb(44, 51, 51);; 
+        border: 1px solid var(--dark-color); 
+    }
+    .booking__input:hover, .booking__number:hover {
+        background-color: rgb(165, 201, 202) ;
     }
     .title, .secondTitle{
         background-image: linear-gradient(to bottom, rgb(57, 91, 100) , rgb(165, 201, 202));
