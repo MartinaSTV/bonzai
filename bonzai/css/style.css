@@ -31,7 +31,6 @@
 .pictures__img{
     display: none;
 }
-
 .pictures__pictures{
    width: 100%;
 }
@@ -51,7 +50,7 @@
 
 /* Grid */
 .secondTitle{
-    grid-column: 1 /span 8 ;
+     grid-column: 2 /span 6 ;
 }
 .type{
     margin-bottom: 1rem;
@@ -71,7 +70,7 @@
         width: 90%;
     }
     .svit{
-        grid-column:2 / span 3;
+        grid-column: 2 / span 3;
     }
     .single{
         grid-column: 5 /span 3;
@@ -93,7 +92,6 @@
     }
     .text{
         grid-column: 1 /span 1 ;
-        
     }
     .book{
         grid-column: 1/span 1;
